@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f2f2f2;
+}
+
+/* Navbar */
+#navbar {
+background: #333;
+color: #fff;
+position: fixed;
+top: 0;
+width: 100%;
+padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
+transition: background 0.3s ease;
+}
+
+.logo {
+font-weight: bold;
+font-size: 20px;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+.nav-links a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+color: #00ffff;
+}
+
+/* Hero Section */
+.hero {
+margin-top: 70px;
+text-align: center;
+padding: 100px 20px;
+background: linear-gradient(to right, #00b4db, #0083b0);
+color: white;
+}
